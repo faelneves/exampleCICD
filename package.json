@@ -1,0 +1,22 @@
+{
+  "name": "examplecicd",
+  "version": "1.0.0",
+  "description": "simple API to demonstrate CI/CD tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./tests/unit/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faelneves/exampleCICD.git"
+  },
+  "author": "Rafael Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faelneves/exampleCICD/issues"
+  },
+  "homepage": "https://github.com/faelneves/exampleCICD#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
