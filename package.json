@@ -4,7 +4,7 @@
   "description": "simple API to demonstrate CI/CD tools",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./tests/unit/*.test.js"
+    "test": "jest --passWithNoTests ./tests/unit/*.test.js"
   },
   "repository": {
     "type": "git",
